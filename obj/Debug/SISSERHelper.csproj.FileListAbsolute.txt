@@ -1,0 +1,10 @@
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\bin\Debug\SISSERHelper.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\bin\Debug\SISSERHelper.pdb
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERHelper.csprojResolveAssemblyReference.cache
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERHelper.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERHelper.pdb
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERHelper\SISSERHelper\bin\Debug\SISSERHelper.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERHelper\SISSERHelper\bin\Debug\SISSERHelper.pdb
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERHelper\SISSERHelper\obj\Debug\SISSERHelper.csprojResolveAssemblyReference.cache
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERHelper\SISSERHelper\obj\Debug\SISSERHelper.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERHelper\SISSERHelper\obj\Debug\SISSERHelper.pdb

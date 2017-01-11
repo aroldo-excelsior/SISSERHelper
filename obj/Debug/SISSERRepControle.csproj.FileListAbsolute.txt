@@ -1,0 +1,5 @@
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERRepControle.csprojResolveAssemblyReference.cache
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\bin\Debug\SISSERRepControle.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\bin\Debug\SISSERRepControle.pdb
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERRepControle.dll
+C:\Users\aroldo.andrade\Documents\SharpDevelop Projects\SISSERRepControle\SISSERRepControle\obj\Debug\SISSERRepControle.pdb

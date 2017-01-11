@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{16FCE1BE-EED6-4960-B275-D1C3D48EEE7C}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SISSERRepControle</RootNamespace>
+    <AssemblyName>SISSERHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\Controle.cs" />
+    <Compile Include="Enums\EnumInserted.cs" />
+    <Compile Include="Interfaces\InterfaceEventLog.cs" />
+    <Compile Include="Interfaces\InterfaceEventType.cs" />
+    <Compile Include="Interfaces\InterfaceBacen.cs" />
+    <Compile Include="Interfaces\InterfacePerfilEnvioProgramaSubvencao.cs" />
+    <Compile Include="Interfaces\InterfaceProduto.cs" />
+    <Compile Include="Interfaces\InterfaceProgramaSubvencao.cs" />
+    <Compile Include="Interfaces\InterfaceProgramaSubvencaoApolice.cs" />
+    <Compile Include="Interfaces\InterfaceProposta.cs" />
+    <Compile Include="AppConfiguration.cs" />
+    <Compile Include="Models\Bacen.cs" />
+    <Compile Include="Models\EventLog.cs" />
+    <Compile Include="Models\EventType.cs" />
+    <Compile Include="Models\PerfilEnvioProgramaSubvencao.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\ProgramaSubvencao.cs" />
+    <Compile Include="Models\ProgramaSubvencaoApolice.cs" />
+    <Compile Include="Models\Proposta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\RepositorioBacen.cs" />
+    <Compile Include="Repositorios\RepositorioEventLog.cs" />
+    <Compile Include="Repositorios\RepositorioEventType.cs" />
+    <Compile Include="Repositorios\RepositorioPerfilEnvioProgramaSubvencao.cs" />
+    <Compile Include="Repositorios\RepositorioProduto.cs" />
+    <Compile Include="Repositorios\RepositorioProgramaSubvencao.cs" />
+    <Compile Include="Repositorios\RepositorioProgramaSubvencaoApolice.cs" />
+    <Compile Include="Repositorios\RepositorioProposta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models" />
+    <Folder Include="Interfaces" />
+    <Folder Include="Controllers" />
+    <Folder Include="Enums" />
+    <Folder Include="Repositorios" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
